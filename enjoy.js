@@ -7,8 +7,8 @@ const elements = [
 ]
 
 elements.forEach(e => {
-  e = document.querySelectorAll(e)
-  e.forEach(e => {
+  let result = document.querySelectorAll(e)
+  result.forEach(e => {
     e.style.userSelect = 'text'
     e.style.WebkitUserSelect = 'text'
     e.style.MozUserSelect = 'text'
